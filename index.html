@@ -10,6 +10,19 @@
 <meta property="og:title" content="Escapade Arcachon — Maison de vacances">
 <meta property="og:description" content="À pied des plages, des commerces et des restaurants du quartier de l'Aiguillon. Port d'Arcachon à 250 mètres.">
 <meta property="og:image" content="images/sejour-1.jpg">
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {});
+    // Si le lien reçu par email contient un jeton (confirmation, invitation, mot de passe oublié...),
+    // on redirige automatiquement vers l'espace admin qui sait le traiter.
+    if (window.location.hash && window.location.hash.includes("confirmation_token") ||
+        window.location.hash && window.location.hash.includes("invite_token") ||
+        window.location.hash && window.location.hash.includes("recovery_token")) {
+      window.location.href = "/admin/" + window.location.hash;
+    }
+  }
+</script>
 </head>
 <body>
 
