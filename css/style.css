@@ -164,6 +164,12 @@ h1,h2,h3,.serif{
   margin-top:32px;
   flex-wrap:wrap;
 }
+.stat-pill-price{
+  background:var(--terracotta);
+  color:#fff;
+  border-color:var(--terracotta);
+  font-weight:600;
+}
 .hero-visual{
   position:relative;
 }
@@ -471,6 +477,13 @@ section{padding:96px 0;}
 .legend-dot.unavailable{background:var(--unavailable);}
 
 .cal-side h3{color:#fff; font-size:24px; margin-bottom:14px;}
+.cal-price{
+  font-family:'Fraunces',serif;
+  font-style:italic;
+  font-size:22px;
+  color:var(--sable);
+  margin-bottom:14px;
+}
 .cal-side p{color:rgba(255,255,255,0.8); font-size:15px; margin-bottom:22px;}
 
 /* ---------- Reservation form ---------- */
