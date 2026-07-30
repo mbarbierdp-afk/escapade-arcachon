@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: false
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "disponibilites"
+    label: "Disponibilités"
+    files:
+      - file: "content/disponibilites.json"
+        label: "Séjours indisponibles"
+        name: "disponibilites"
+        fields:
+          - label: "Séjours réservés / indisponibles"
+            name: "sejours_indisponibles"
+            widget: "list"
+            fields:
+              - { label: "Date d'arrivée", name: "debut", widget: "date", format: "YYYY-MM-DD" }
+              - { label: "Date de départ", name: "fin", widget: "date", format: "YYYY-MM-DD" }
+              - { label: "Motif (optionnel)", name: "motif", widget: "string", required: false, default: "Réservé" }
