@@ -1,3 +1,6 @@
 {
-  "sejours_indisponibles": []
+  "sejours_indisponibles": [
+    { "debut": "2026-08-10", "fin": "2026-08-17", "motif": "Réservé" },
+    { "debut": "2026-08-24", "fin": "2026-08-27", "motif": "Réservé" }
+  ]
 }

@@ -19,6 +19,6 @@ collections:
             name: "sejours_indisponibles"
             widget: "list"
             fields:
-              - { label: "Date d'arrivée", name: "debut", widget: "date", format: "YYYY-MM-DD" }
-              - { label: "Date de départ", name: "fin", widget: "date", format: "YYYY-MM-DD" }
+              - { label: "Date d'arrivée", name: "debut", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
+              - { label: "Date de départ", name: "fin", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: true }
               - { label: "Motif (optionnel)", name: "motif", widget: "string", required: false, default: "Réservé" }
