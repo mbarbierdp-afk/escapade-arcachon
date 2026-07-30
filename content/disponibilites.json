@@ -1,3 +1,9 @@
 {
-  "sejours_indisponibles": []
+  "sejours_indisponibles": [
+    {
+      "motif": "",
+      "debut": "2026-08-30",
+      "fin": "2026-09-10"
+    }
+  ]
 }
