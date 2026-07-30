@@ -1,6 +1,19 @@
 {
   "sejours_indisponibles": [
-    { "debut": "2026-08-10", "fin": "2026-08-17", "motif": "Réservé" },
-    { "debut": "2026-08-24", "fin": "2026-08-27", "motif": "Réservé" }
+    {
+      "motif": "Réservé",
+      "debut": "2026-08-01",
+      "fin": "2026-08-02"
+    },
+    {
+      "motif": "Réservé",
+      "debut": "2026-08-28",
+      "fin": "2026-08-30"
+    },
+    {
+      "motif": "Réservé",
+      "debut": "2026-08-20",
+      "fin": "2026-08-23"
+    }
   ]
 }
